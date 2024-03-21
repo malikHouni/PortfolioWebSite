@@ -26,7 +26,7 @@ span.b {
   margin:0;padding:0;
 }
 
-#news,#portfolio{text-align:center;width:50%;height:25em;float:left; border:1px solid #b2bec3;overflow-y: auto;background: rgba(255, 255, 255, 0.9);}
+#news,#portfolio{text-align:left;width:50%;height:25em;float:left; border:1px solid #b2bec3;overflow-y: auto;background: rgba(255, 255, 255, 0.9);margin-bottom:2em;}
 
 #portfolio ul{list-style:none;margin:0;font-size: 2em;}
 .infoBox{
@@ -46,7 +46,7 @@ padding:0.5em;
 .infoBox{
 display:inline-block;width:100%;margin:0 0 0.2em 0;
 /* From https://css.glass */
-background: rgba(255, 255, 255, 0.2);
+background: rgba(255, 255, 255, 0.8);
 border-radius: 0px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(5px);
