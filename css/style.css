@@ -1,6 +1,16 @@
 body {
   padding-top: 5rem;
   background-color:#FFF;
+   /* The image used */
+  background-image: url("/images/bkg.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .starter-template {
   padding: 1.5em 0 3em 0;
@@ -16,7 +26,7 @@ span.b {
   margin:0;padding:0;
 }
 
-#news,#portfolio{text-align:center;width:50%;height:25em;float:left; border:1px solid #b2bec3;overflow-y: auto}
+#news,#portfolio{text-align:center;width:50%;height:25em;float:left; border:1px solid #b2bec3;overflow-y: auto;background: rgba(255, 255, 255, 0.9);}
 
 #portfolio ul{list-style:none;margin:0;font-size: 2em;}
 .infoBox{
