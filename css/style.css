@@ -1,16 +1,14 @@
 body {
   padding-top: 5rem;
-  background-color:#FFF;
+  background-color:#F2F2F2;
    /* The image used */
+  /*
   background-image: url("/images/bkg.jpg");
-
-  /* Full height */
   height: 100%;
-
-  /* Center and scale the image nicely */
+  // Center and scale the image nicely
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;*/
 }
 .starter-template {
   padding: 1.5em 0 3em 0;
@@ -26,7 +24,7 @@ span.b {
   margin:0;padding:0;
 }
 
-#news,#portfolio{text-align:left;width:50%;height:25em;float:left; border:1px solid #b2bec3;overflow-y: auto;background: rgba(255, 255, 255, 0.9);margin-bottom:2em;}
+#news,#portfolio{text-align:left;width:50%;height:25em;float:left; border:1px solid #D3D1D1;overflow-y: auto;background: rgba(255, 255, 255, 0.98);margin-bottom:2em;border-radius:0.5em;}
 
 #portfolio ul{list-style:none;margin:0;font-size: 2em;}
 .infoBox{
